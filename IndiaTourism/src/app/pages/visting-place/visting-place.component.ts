@@ -1,16 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-homepage',
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+  selector: 'app-visting-place',
+  templateUrl: './visting-place.component.html',
+  styleUrls: ['./visting-place.component.css']
 })
-export class HomepageComponent implements OnInit {
+export class VistingPlaceComponent implements OnInit {
 
-  SiteDescription = {
-    Heading: "Tourism",
-    Description: "Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization."
-  };
   VisitingPlaceList = [
     {
       MainImage: "",

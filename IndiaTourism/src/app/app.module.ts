@@ -12,6 +12,8 @@ import { MainCarousolComponent } from './slider/main-carousol/main-carousol.comp
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { AboutUsComponent } from './pages/common/about-us/about-us.component';
 import { ContactUsComponent } from './pages/common/contact-us/contact-us.component';
+import { VistingPlaceDetailComponent } from './pages/common/visting-place-detail/visting-place-detail.component';
+import { VistingPlaceComponent } from './pages/visting-place/visting-place.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContactUsComponent } from './pages/common/contact-us/contact-us.compone
     MainCarousolComponent,
     HomepageComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    VistingPlaceDetailComponent,
+    VistingPlaceComponent
   ],
   imports: [
     BrowserModule,
