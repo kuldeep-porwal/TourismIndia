@@ -12,19 +12,19 @@ export class VistingPlaceComponent implements OnInit {
       MainImage: "",
       MainImageDescription: "Img Desc",
       FullDescription: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      DetailsUrl: "https://www.google.com"
+      DetailsUrl: "/visitingplace/indore"
     },
     {
       MainImage: "",
       MainImageDescription: "Img Desc",
       FullDescription: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      DetailsUrl: "https://www.google.com"
+      DetailsUrl: "/visitingplace/indore"
     },
     {
       MainImage: "",
       MainImageDescription: "Img Desc",
       FullDescription: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      DetailsUrl: "https://www.google.com"
+      DetailsUrl: "/visitingplace/indore"
     }
   ];
   constructor() { }
